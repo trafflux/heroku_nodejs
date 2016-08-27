@@ -6,6 +6,9 @@
     "node": "4.5.0"
   },
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "babel-cli": "^6.11.4",
     "ejs": "^2.5.1",
