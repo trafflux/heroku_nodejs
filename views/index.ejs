@@ -1,0 +1,9 @@
+<h1><%=siteTitle%></h1>
+<h2><%= pageTitle %> (Templated View)</h2>
+<p>
+	To create a route for home, so let's take a look at how you create other routes. Now routes for other URLs are created in the same way as our homepage, with the app.get statement. The interesting thing is that you can pass variables to app.get and receive them into the route with a special variable available through your request called params.
+</p>
+
+<% if(typeof bypass === 'undefined' || bypass=='false'){ %>
+<p>Pooping out data bc of IF!</p>
+<% } %>
