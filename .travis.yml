@@ -1,2 +1,9 @@
 notifications:
   slack: factorautomation:LmownUdoF5Ml4CqSWetXqCTh
+
+language: node_js
+sudo: false
+node_js:
+  - 4
+  - 5
+  - 6
